@@ -1,9 +1,9 @@
 require "rubyreqwest"
 
-describe "TextTransform" do
-  it "can flip text" do
+describe "Rubyreqwest" do
+  it "can send a request" do
     expect(
-      Rubyreqwest.get("http://meow.com").body
+      Rubyreqwest.new("http://meow.com").get!.body
     ).to(
       eq("lol")
     )
