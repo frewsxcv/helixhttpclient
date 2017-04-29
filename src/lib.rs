@@ -7,13 +7,13 @@ extern crate hyper;
 use std::io::Read;
 
 ruby! {
-    class Rubyreqwest {
+    class HelixHttpClient {
         struct {
             url: String,
         }
 
         def initialize(helix, url: String) {
-            Rubyreqwest {
+            HelixHttpClient {
                 helix,
                 url,
             }

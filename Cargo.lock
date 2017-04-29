@@ -1,5 +1,5 @@
 [root]
-name = "rubyreqwest"
+name = "helixhttpclient"
 version = "0.1.0"
 dependencies = [
  "helix 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)",

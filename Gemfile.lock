@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubyreqwest (1.0.0)
+    helixhttpclient (1.0.0)
       helix_runtime (~> 0.5.0)
 
 GEM
@@ -31,8 +31,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  helixhttpclient!
   rspec (~> 3.4)
-  rubyreqwest!
 
 BUNDLED WITH
    1.14.6

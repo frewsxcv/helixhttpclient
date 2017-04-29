@@ -1,5 +1,5 @@
 [package]
-name = "rubyreqwest"
+name = "helixhttpclient"
 version = "0.1.0"
 
 [lib]
