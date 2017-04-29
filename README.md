@@ -13,3 +13,7 @@ puts response.body
 # Print the status code
 puts response.code
 ```
+
+## License
+
+[CC0 1.0 Universal - Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/)
